@@ -33,15 +33,20 @@ export default function Portfolio() {
 
         <div>
           <p className="prompt">[om@portfolio ~]$ echo $ROLE</p>
-          <Typewriter text="MERN Stack & Core Java Trainer | Web Developer" />
+          <Typewriter text="Junior Software Developer | Technical Trainer" />
         </div>
 
         <div>
           <p className="prompt">[om@portfolio ~]$ cat about.txt</p>
           <p>
-            Passionate trainer and developer with expertise in MERN Stack and
-            Core Java, committed to delivering engaging training and building
-            high-performance, accessible, and user-friendly web applications.
+            As a Junior Software Developer and Technical Trainer at KGiSL
+            MicroCollege, I work on developing and maintaining full-stack web
+            applications using MongoDB, Express.js, React, and Node.js, while
+            also training students in Core Java and modern web technologies. My
+            role involves designing and implementing real-world projects,
+            mentoring students, and contributing to both the technical and
+            instructional aspects of software development, combining practical
+            experience with continuous learning and innovation.
           </p>
         </div>
 
@@ -49,20 +54,16 @@ export default function Portfolio() {
           <p className="prompt">[om@portfolio ~]$ ls skills/</p>
           <ul className="grid sm:grid-cols-2 gap-x-6">
             {[
-              "React.js",
-              "React-Redux",
-              "Node.js | JRE",
-              "Express",
-              "MongoDB",
-              "CSS3",
-              "Tailwind CSS",
-              "MaterialUI",
-              "HTML5",
-              "Postman",
-              "JavaScript",
-              "Core Java",
-              "Data Structures & Algorithms",
-              "Git & GitHub",
+              "Languages: HTML5 | CSS3 | JavaScript | Java",
+              "Libraries & Frameworks: React.js | Redux | TailwindCSS | Express.js | Material UI",
+              "Runtime Environment: Node.js | JRE",
+              "Databases: MongoDB",
+              "API Testing: Postman",
+              "Version Control: Git | GitHub",
+              "Server: GoDaddy | Netlify | Vercel | Render",
+              "IDE: Visual Studio Code | IntelliJ Idea | Spring Tool Suite",
+              "Programming Fundamentals: Data Structures & Algorithms | OOPS | Functional Coding | Procedural Coding",
+              "Operating Systems: macOS | Windows | Linux (CentOS, RedHat)",
             ].map((skill) => (
               <li key={skill}>- {skill}</li>
             ))}
@@ -95,8 +96,8 @@ export default function Portfolio() {
         <div>
           <p className="prompt">[om@portfolio ~]$ cat experience.log</p>
           <p>
-            KGiSL MicroCollege - MERN Stack & Core Java Trainer (June 2023 —
-            Present)
+            KGiSL MicroCollege - Junior Software Developer | Technical Trainer
+            (June 2023 — Present)
           </p>
           <p>
             GLOINNT Solutions Pvt. Ltd - Technical Writer and Illustrator
